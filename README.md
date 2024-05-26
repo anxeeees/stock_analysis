@@ -41,8 +41,13 @@ Pro spuštění této aplikace je třeba mít nainstalovaný Python a následuj�
 - yfinance
 - seaborn
 - nltk
+- tensorflow
 
 Aplikaci lze spustit pomocí následujícího příkazu:
 
 ```bash
 streamlit run web_app.py
+```
+```bash
+pip install numpy pandas matplotlib streamlit keras scikit-learn requests yfinance seaborn nltk tensorflow
+```
